@@ -15,6 +15,13 @@ class RestApiManager: NSObject {
     
     let baseURL = "http://fulcrum.sourcepad.com/api/v1"
     
+    func getProject(id: Int, onCompletion: (JSON) -> Void) {
+        let route = "\(baseURL)/projects/\(id)"
+        makeHTTPGetRequest(route, onCompletion: { json, err in
+            onCompletion(json as JSON)
+        })
+    }
+    
     func getProjects(onCompletion: (JSON) -> Void) {
         let route = "\(baseURL)/projects"
         makeHTTPGetRequest(route, onCompletion: { json, err in

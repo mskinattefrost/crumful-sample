@@ -15,7 +15,9 @@
 		C6F3E7341B4418AB00FC8B89 /* Crumful_MilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F3E7331B4418AB00FC8B89 /* Crumful_MilTests.swift */; };
 		C6F3E73E1B441AF700FC8B89 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F3E73D1B441AF700FC8B89 /* SwiftyJSON.swift */; };
 		C6F3E7401B441B1C00FC8B89 /* RestApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F3E73F1B441B1C00FC8B89 /* RestApiManager.swift */; };
-		C6F3E7421B4424C200FC8B89 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F3E7411B4424C200FC8B89 /* Project.swift */; };
+		C6F3E7441B46798D00FC8B89 /* ProjectsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F3E7431B46798D00FC8B89 /* ProjectsTableViewController.swift */; };
+		C6F3E7461B467C3500FC8B89 /* ProjectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F3E7451B467C3500FC8B89 /* ProjectTableViewCell.swift */; };
+		C6F3E74A1B4688B900FC8B89 /* ProjectDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F3E7491B4688B900FC8B89 /* ProjectDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +43,9 @@
 		C6F3E7331B4418AB00FC8B89 /* Crumful_MilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crumful_MilTests.swift; sourceTree = "<group>"; };
 		C6F3E73D1B441AF700FC8B89 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		C6F3E73F1B441B1C00FC8B89 /* RestApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestApiManager.swift; sourceTree = "<group>"; };
-		C6F3E7411B4424C200FC8B89 /* Project.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		C6F3E7431B46798D00FC8B89 /* ProjectsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectsTableViewController.swift; sourceTree = "<group>"; };
+		C6F3E7451B467C3500FC8B89 /* ProjectTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectTableViewCell.swift; sourceTree = "<group>"; };
+		C6F3E7491B4688B900FC8B89 /* ProjectDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,10 +92,12 @@
 				C6F3E71D1B4418AA00FC8B89 /* AppDelegate.swift */,
 				C6F3E71F1B4418AA00FC8B89 /* ViewController.swift */,
 				C6F3E7211B4418AB00FC8B89 /* Main.storyboard */,
+				C6F3E7491B4688B900FC8B89 /* ProjectDetailViewController.swift */,
+				C6F3E7431B46798D00FC8B89 /* ProjectsTableViewController.swift */,
+				C6F3E7451B467C3500FC8B89 /* ProjectTableViewCell.swift */,
 				C6F3E7241B4418AB00FC8B89 /* Images.xcassets */,
 				C6F3E7261B4418AB00FC8B89 /* LaunchScreen.xib */,
 				C6F3E71B1B4418AA00FC8B89 /* Supporting Files */,
-				C6F3E7411B4424C200FC8B89 /* Project.swift */,
 			);
 			path = "Crumful-Mil";
 			sourceTree = "<group>";
@@ -222,10 +228,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6F3E73E1B441AF700FC8B89 /* SwiftyJSON.swift in Sources */,
+				C6F3E7461B467C3500FC8B89 /* ProjectTableViewCell.swift in Sources */,
 				C6F3E7201B4418AA00FC8B89 /* ViewController.swift in Sources */,
 				C6F3E7401B441B1C00FC8B89 /* RestApiManager.swift in Sources */,
-				C6F3E7421B4424C200FC8B89 /* Project.swift in Sources */,
 				C6F3E71E1B4418AA00FC8B89 /* AppDelegate.swift in Sources */,
+				C6F3E7441B46798D00FC8B89 /* ProjectsTableViewController.swift in Sources */,
+				C6F3E74A1B4688B900FC8B89 /* ProjectDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
