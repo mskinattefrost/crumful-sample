@@ -12,5 +12,5 @@ class ProjectTableViewCell: UITableViewCell {
 
     @IBOutlet var projectNameLabel: UILabel!
     
-    
+    @IBOutlet var projectGrade: UILabel!
 }

@@ -1,0 +1,6 @@
+framework module Pods_Crumful_Mil {
+  umbrella header "Pods-Crumful-Mil-umbrella.h"
+
+  export *
+  module * { export * }
+}

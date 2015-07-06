@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B7BA4B6CC12E530A3508CE7 /* Pods_Crumful_Mil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C18DC7CDA4ED70CD1A1E39 /* Pods_Crumful_Mil.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		C6F3E71E1B4418AA00FC8B89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F3E71D1B4418AA00FC8B89 /* AppDelegate.swift */; };
 		C6F3E7201B4418AA00FC8B89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F3E71F1B4418AA00FC8B89 /* ViewController.swift */; };
 		C6F3E7231B4418AB00FC8B89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6F3E7211B4418AB00FC8B89 /* Main.storyboard */; };
 		C6F3E7251B4418AB00FC8B89 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6F3E7241B4418AB00FC8B89 /* Images.xcassets */; };
 		C6F3E7281B4418AB00FC8B89 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6F3E7261B4418AB00FC8B89 /* LaunchScreen.xib */; };
 		C6F3E7341B4418AB00FC8B89 /* Crumful_MilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F3E7331B4418AB00FC8B89 /* Crumful_MilTests.swift */; };
-		C6F3E73E1B441AF700FC8B89 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F3E73D1B441AF700FC8B89 /* SwiftyJSON.swift */; };
 		C6F3E7401B441B1C00FC8B89 /* RestApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F3E73F1B441B1C00FC8B89 /* RestApiManager.swift */; };
 		C6F3E7441B46798D00FC8B89 /* ProjectsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F3E7431B46798D00FC8B89 /* ProjectsTableViewController.swift */; };
 		C6F3E7461B467C3500FC8B89 /* ProjectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F3E7451B467C3500FC8B89 /* ProjectTableViewCell.swift */; };
@@ -31,6 +31,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		450150B5D561074C552ACF2B /* Pods-Crumful-Mil.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crumful-Mil.release.xcconfig"; path = "Pods/Target Support Files/Pods-Crumful-Mil/Pods-Crumful-Mil.release.xcconfig"; sourceTree = "<group>"; };
+		75C18DC7CDA4ED70CD1A1E39 /* Pods_Crumful_Mil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Crumful_Mil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		808AA58DE0C14AEABD81998A /* Pods-Crumful-Mil.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crumful-Mil.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Crumful-Mil/Pods-Crumful-Mil.debug.xcconfig"; sourceTree = "<group>"; };
 		C6F3E7181B4418AA00FC8B89 /* Crumful-Mil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crumful-Mil.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6F3E71C1B4418AA00FC8B89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6F3E71D1B4418AA00FC8B89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,7 +44,6 @@
 		C6F3E72D1B4418AB00FC8B89 /* Crumful-MilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Crumful-MilTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6F3E7321B4418AB00FC8B89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6F3E7331B4418AB00FC8B89 /* Crumful_MilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crumful_MilTests.swift; sourceTree = "<group>"; };
-		C6F3E73D1B441AF700FC8B89 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		C6F3E73F1B441B1C00FC8B89 /* RestApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestApiManager.swift; sourceTree = "<group>"; };
 		C6F3E7431B46798D00FC8B89 /* ProjectsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectsTableViewController.swift; sourceTree = "<group>"; };
 		C6F3E7451B467C3500FC8B89 /* ProjectTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectTableViewCell.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B7BA4B6CC12E530A3508CE7 /* Pods_Crumful_Mil.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +69,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C19C28506D114C850C52C9C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75C18DC7CDA4ED70CD1A1E39 /* Pods_Crumful_Mil.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C6F3E70F1B4418AA00FC8B89 = {
 			isa = PBXGroup;
 			children = (
 				C6F3E71A1B4418AA00FC8B89 /* Crumful-Mil */,
 				C6F3E7301B4418AB00FC8B89 /* Crumful-MilTests */,
 				C6F3E7191B4418AA00FC8B89 /* Products */,
+				FB322EC41965DAED2E786170 /* Pods */,
+				C19C28506D114C850C52C9C5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,7 +101,6 @@
 			isa = PBXGroup;
 			children = (
 				C6F3E73F1B441B1C00FC8B89 /* RestApiManager.swift */,
-				C6F3E73D1B441AF700FC8B89 /* SwiftyJSON.swift */,
 				C6F3E71D1B4418AA00FC8B89 /* AppDelegate.swift */,
 				C6F3E71F1B4418AA00FC8B89 /* ViewController.swift */,
 				C6F3E7211B4418AB00FC8B89 /* Main.storyboard */,
@@ -127,6 +139,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		FB322EC41965DAED2E786170 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				808AA58DE0C14AEABD81998A /* Pods-Crumful-Mil.debug.xcconfig */,
+				450150B5D561074C552ACF2B /* Pods-Crumful-Mil.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6F3E7371B4418AB00FC8B89 /* Build configuration list for PBXNativeTarget "Crumful-Mil" */;
 			buildPhases = (
+				D05687105E61310EB45BBA3A /* Check Pods Manifest.lock */,
 				C6F3E7141B4418AA00FC8B89 /* Sources */,
 				C6F3E7151B4418AA00FC8B89 /* Frameworks */,
 				C6F3E7161B4418AA00FC8B89 /* Resources */,
+				0EDD1A11E29CA13B9F0C21FD /* Embed Pods Frameworks */,
+				3F34C80E517792C2D04FB954 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -222,12 +246,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0EDD1A11E29CA13B9F0C21FD /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Crumful-Mil/Pods-Crumful-Mil-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F34C80E517792C2D04FB954 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Crumful-Mil/Pods-Crumful-Mil-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D05687105E61310EB45BBA3A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C6F3E7141B4418AA00FC8B89 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6F3E73E1B441AF700FC8B89 /* SwiftyJSON.swift in Sources */,
 				C6F3E7461B467C3500FC8B89 /* ProjectTableViewCell.swift in Sources */,
 				C6F3E7201B4418AA00FC8B89 /* ViewController.swift in Sources */,
 				C6F3E7401B441B1C00FC8B89 /* RestApiManager.swift in Sources */,
@@ -358,6 +429,7 @@
 		};
 		C6F3E7381B4418AB00FC8B89 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 808AA58DE0C14AEABD81998A /* Pods-Crumful-Mil.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Crumful-Mil/Info.plist";
@@ -368,6 +440,7 @@
 		};
 		C6F3E7391B4418AB00FC8B89 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 450150B5D561074C552ACF2B /* Pods-Crumful-Mil.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Crumful-Mil/Info.plist";
@@ -429,6 +502,7 @@
 				C6F3E7391B4418AB00FC8B89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C6F3E73A1B4418AB00FC8B89 /* Build configuration list for PBXNativeTarget "Crumful-MilTests" */ = {
 			isa = XCConfigurationList;
@@ -437,6 +511,7 @@
 				C6F3E73C1B4418AB00FC8B89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

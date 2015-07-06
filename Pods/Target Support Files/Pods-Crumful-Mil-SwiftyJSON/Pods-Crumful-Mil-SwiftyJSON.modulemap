@@ -1,0 +1,6 @@
+framework module SwiftyJSON {
+  umbrella header "Pods-Crumful-Mil-SwiftyJSON-umbrella.h"
+
+  export *
+  module * { export * }
+}

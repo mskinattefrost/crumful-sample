@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-Crumful-Mil-Charts.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Crumful-Mil-PNChartSwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Crumful-Mil-SwiftyJSON.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Crumful-Mil.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>239A7899D59287317A70D9A2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>52569EBE973F058CA2D76C7F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B872C5EB1BFFC49906359AC8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E04796476307D45AF9B61699</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

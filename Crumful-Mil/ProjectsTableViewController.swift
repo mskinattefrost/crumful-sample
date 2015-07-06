@@ -1,4 +1,5 @@
 import UIKit
+import SwiftyJSON
 
 class ProjectsTableViewController: UITableViewController, UITableViewDataSource {
   
@@ -20,6 +21,13 @@ class ProjectsTableViewController: UITableViewController, UITableViewDataSource 
         let project:JSON =  JSON(self.items[indexPath.row])
         
         cell.projectNameLabel?.text = project["name"].string
+        
+        //TODO: Change this to grade eventually when Rav fixes API.
+        
+        let grade = project["grade"]["letter_grade"].string != nil ? project["grade"]["letter_grade"].string : "💩"
+        
+        cell.projectGrade?.text = "\(grade!)"
+        
         cell.accessoryType = UITableViewCellAccessoryType.DisclosureIndicator
 
         return cell
@@ -30,7 +38,23 @@ class ProjectsTableViewController: UITableViewController, UITableViewDataSource 
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         
-        if let dest = segue.destinationViewController as? ProjectDetailViewController {
+        println(sender)
+        println(segue.destinationViewController)
+        
+        if let tabs = segue.destinationViewController as? UITabBarController {
+            
+//            let viewControllers = tabs.viewControllers! as Array <--- refactor
+            
+            let dest = tabs.viewControllers![0] as! ProjectDetailViewController
+
+// ######### UNREFACTORED ######
+//            if tableView.indexPathForSelectedRow()?.row {
+//                let blogIndex = tableView.indexPathForSelectedRow()?.row
+//                
+//                let selected:JSON = JSON(self.items[blogIndex])
+//            }
+// ##############################
+            
             if let blogIndex = tableView.indexPathForSelectedRow()?.row {
                 
                 let selected:JSON = JSON(self.items[blogIndex])
@@ -45,8 +69,12 @@ class ProjectsTableViewController: UITableViewController, UITableViewDataSource 
     
     override func viewDidLoad() {
         
+        self.title = "Projects"        
+        
         RestApiManager.sharedInstance.getProjects { json in
             let results = json["projects"]
+            
+            println(results)
             
             for (index: String, project: JSON) in results {
                 self.items.addObject(project.object)
