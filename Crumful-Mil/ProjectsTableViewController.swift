@@ -20,7 +20,8 @@ class ProjectsTableViewController: UITableViewController, UITableViewDataSource 
         let project:JSON =  JSON(self.items[indexPath.row])
         
         cell.projectNameLabel?.text = project["name"].string
-        
+        cell.accessoryType = UITableViewCellAccessoryType.DisclosureIndicator
+
         return cell
     }
     

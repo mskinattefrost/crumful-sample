@@ -20,10 +20,7 @@ class ProjectDetailViewController: UIViewController {
             json in
             self.projectName = json["name"].string!
             let thisWeek = json["this_week"]
-            
-            for stat in thisWeek {
-                println(stat)
-            }
+            println(json)
             
           
         }

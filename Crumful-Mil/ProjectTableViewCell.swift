@@ -11,5 +11,6 @@ import UIKit
 class ProjectTableViewCell: UITableViewCell {
 
     @IBOutlet var projectNameLabel: UILabel!
-
+    
+    
 }
