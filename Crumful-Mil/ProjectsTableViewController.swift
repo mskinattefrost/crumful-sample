@@ -74,7 +74,7 @@ class ProjectsTableViewController: UITableViewController, UITableViewDataSource 
         RestApiManager.sharedInstance.getProjects { json in
             let results = json["projects"]
             
-            println(results)
+            //println(results)
             
             for (index: String, project: JSON) in results {
                 self.items.addObject(project.object)
